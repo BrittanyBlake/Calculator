@@ -1,10 +1,14 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function Display({ result }) {
   return (
     <div>
-      <h3> {result} </h3>
+      <h3>
+        {' '}
+        {result}
+        {' '}
+      </h3>
     </div>
   );
 }
