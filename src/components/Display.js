@@ -9,7 +9,7 @@ function Display({ result }) {
   );
 }
 
-Display.PropTypes = {
+Display.propTypes = {
   result: PropTypes.string,
 };
 Display.defaultProps = {

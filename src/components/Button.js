@@ -10,7 +10,7 @@ function Button({name}) {
     )
 }
 
-Button.PropTypes = {
+Button.propTypes = {
     name: PropTypes.string
 }
 
