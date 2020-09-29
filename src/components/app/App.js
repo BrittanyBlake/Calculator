@@ -1,6 +1,6 @@
 import React from 'react';
+import Display from "../display/Display";
 import ButtonPanel from '../button-panel/ButtonPanel';
-import Display from '../display/Display';
 import styles from './App.module.css';
 
 function App() {
