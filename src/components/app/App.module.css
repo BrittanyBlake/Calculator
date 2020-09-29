@@ -1,0 +1,15 @@
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+}
+
+.title{
+  text-align: center;
+}
