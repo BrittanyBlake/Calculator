@@ -21,7 +21,10 @@ class App extends Component {
   };
 
   render() {
-    const result = "0" || this.state.next || this.state.total;
+    const defaultDisplay = "0";
+    const { next, total} = this.state
+
+    const result = defaultDisplay || next || total;
     return (
       <div className={styles.container}>
         <div className={styles.App}>
