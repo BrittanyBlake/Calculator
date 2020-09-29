@@ -1,6 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
-import styles from "./Button.module.css";
+import React from 'react';
+import PropTypes from 'prop-types';
+import styles from './Button.module.css';
 
 const Button = ({ name, color, wide }) => (
   <button
@@ -19,7 +19,7 @@ Button.propTypes = {
 };
 
 Button.defaultProps = {
-  color: "#fe9241",
+  color: '#fe9241',
   wide: false,
 };
 
