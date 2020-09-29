@@ -1,4 +1,16 @@
-/* button{
+
+
+   /* .button {
+
+line-height: 100px;
+border: 1px solid #b9b9b9;
+font-size: 40px;
+text-align: center;
+cursor: pointer;
+color: black; */
+
+
+button {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -9,22 +21,10 @@
   border: 1px solid rgb(214, 210, 210);
 }
 
+.wide {
+  width: 50%;
+}
 
-
-   .wide {
-     width: 50%;
-   }
-
-   .normal {
-     width: 25%;
-   } */
-
-   .button {
-
-line-height: 100px;
-border: 1px solid #b9b9b9;
-font-size: 40px;
-text-align: center;
-cursor: pointer;
-color: black;
+.normal {
+  width: 25%;
 }

@@ -8,8 +8,10 @@ function Button({ name, color, wide }) {
     <div>
       <button
         type="button"
-        className={styles.button}
-        style={{ backgroundColor: color, width: wide ? "50%" : "25%" }}
+        className={wide ? styles.wide : styles.normal}
+        style={{ backgroundColor: color }}
+        // className={styles.button}
+        // style={{ backgroundColor: color, width: wide ? "50%" : "25%" }}
       >
         {name}
       </button>

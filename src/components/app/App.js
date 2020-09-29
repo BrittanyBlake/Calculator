@@ -8,8 +8,8 @@ function App() {
     <div className={styles.container}>
       <div className={styles.App}>
         <h1 className={styles.title}>Calculator</h1>
-        <ButtonPanel />
         <Display />
+        <ButtonPanel />
       </div>
     </div>
   );
