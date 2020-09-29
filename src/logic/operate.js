@@ -16,14 +16,18 @@ const operate = (numberOne, numberTwo, operation) => {
       total = num1.times(num2);
       break;
     case "÷":
-      total = num1.div(num2);
+      if (num1 == 0 || num2 == 0) {
+        total = "NaN";
+      } else {
+        total = num1.div(num2);
+      }
       break;
     case "%":
       total = num1.times("0.01");
       break;
     default:
   }
-  return total;
+  return total.toString();
 };
 
 export default operate;
