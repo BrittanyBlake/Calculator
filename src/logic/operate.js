@@ -19,7 +19,7 @@ const operate = (numberOne, numberTwo, operation) => {
       total = num1.div(num2);
       break;
     case "%":
-      total = num1.mod(num2);
+      total = num1.times("0.01");
       break;
     default:
   }
