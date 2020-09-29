@@ -1,0 +1,18 @@
+button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+  font-size: 1.8em;
+  color: black;
+  border: 1px solid rgb(214, 210, 210);
+}
+
+.wide {
+  width: 50%;
+}
+
+.normal {
+  width: 25%;
+}

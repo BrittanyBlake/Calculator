@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+}
+
+.title {
+  text-align: center;
+}
