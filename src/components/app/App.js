@@ -1,6 +1,7 @@
 import React from 'react';
 import Display from '../display/Display';
 import ButtonPanel from '../button-panel/ButtonPanel';
+import calculate from '../../logic/calculate'
 import styles from './App.module.css';
 
 function App() {
