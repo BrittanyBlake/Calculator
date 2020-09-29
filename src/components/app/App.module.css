@@ -1,4 +1,4 @@
-.container{
+.container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -11,6 +11,6 @@
   width: 700px;
 }
 
-.title{
+.title {
   text-align: center;
 }
