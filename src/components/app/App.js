@@ -1,13 +1,13 @@
 import React from 'react';
-import ButtonPanel from '../ButtonPanel';
+import ButtonPanel from '../button-panel/ButtonPanel';
 import Display from '../display/Display';
 import styles from './App.module.css';
 
 function App() {
   return (
-    <div class={styles.container}>
-      <div class={styles.App}>
-        <h1 class={styles.title}>Calculator</h1>
+    <div className={styles.container}>
+      <div className={styles.App}>
+        <h1 className={styles.title}>Calculator</h1>
         <ButtonPanel />
         <Display />
       </div>

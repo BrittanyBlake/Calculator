@@ -4,8 +4,8 @@ import styles from './Display.module.css'
 
 function Display({ result }) {
   return (
-    <div class={styles.display}>
-      <h3 class={styles.result}>
+    <div className={styles.display}>
+      <h3 className={styles.result}>
         {' '}
         {result}
         {' '}
