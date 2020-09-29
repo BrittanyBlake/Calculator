@@ -5,18 +5,29 @@ const operate = (numberOne, numberTwo, operation) => {
   const num2 = Big(numberTwo);
   let total = 0;
 
-  if (operation === '-') {
-    total = num1.minus(num2);
-  } else if (operation === '+') {
-    total = num1.plus(num2);
-  } else if (operation === 'X') {
-    total = num1.times(num2);
-  } else if (operation === '÷') {
-    total = num1.div(num2);
-  } else if (operation === '%') {
-    total = num1.mod(num2);
+  switch (operation) {
+    case '-':
+      total = num1.minus(num2);
+      break;
+    case '+':
+      total = num1.plus(num2);
+      break;
+    case 'X':
+      total = num1.times(num2);
+      break;
+    case '÷':
+      if (num1 === 0 || num2 === 0) {
+        total = 'NaN';
+      } else {
+        total = num1.div(num2);
+      }
+      break;
+    case '%':
+      total = num1.times('0.01');
+      break;
+    default:
   }
-  return total;
+  return total.toString();
 };
 
 export default operate;
