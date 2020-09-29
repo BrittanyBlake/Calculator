@@ -1,7 +1,12 @@
 .buttonPanel{
     display: flex;
+flex-direction: column;
+border-radius: 0 0 6px 6px;
 }
 
 .group{
+    
+    display: flex;
     height:100px;
+    background-color: #fe902a;
 }

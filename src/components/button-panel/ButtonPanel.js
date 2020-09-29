@@ -1,38 +1,38 @@
 import React from 'react';
-import Button from '../Button';
+import Button from '../button/Button';
 import styles from './ButtonPanel.module.css'
 
 function ButtonPanel() {
   return (
     <div className={styles.buttonPanel}>
       <div className={styles.group}>
-        <Button name="AC" />
-        <Button name="+/-" />
-        <Button name="%" />
-        <Button name="÷" />
+        <Button name="AC" color={"#dfdfdf"} />
+        <Button name="+/-" color={"#dfdfdf"} />
+        <Button name="%" color={"#dfdfdf"} />
+        <Button name="÷" color={"#dfdfdf"} />
       </div>
       <div className={styles.group}>
-        <Button name="7" />
-        <Button name="8" />
-        <Button name="9" />
-        <Button name="X" />
+        <Button name="7" color={"#dfdfdf"} />
+        <Button name="8" color={"#dfdfdf"} />
+        <Button name="9" color={"#dfdfdf"} />
+        <Button name="X" color={"#dfdfdf"} />
       </div>
       <div className={styles.group}>
-        <Button name="4" />
-        <Button name="5" />
-        <Button name="6" />
-        <Button name="-" />
+        <Button name="4" color={"#dfdfdf"} />
+        <Button name="5" color={"#dfdfdf"} />
+        <Button name="6" color={"#dfdfdf"} />
+        <Button name="-" color={"#dfdfdf"} />
       </div>
       <div className={styles.group}>
-        <Button name="1" />
-        <Button name="2" />
-        <Button name="3" />
-        <Button name="+" />
+        <Button name="1" color={"#dfdfdf"} />
+        <Button name="2" color={"#dfdfdf"} />
+        <Button name="3" color={"#dfdfdf"} />
+        <Button name="+" color={"#dfdfdf"} />
       </div>
       <div className={styles.group}>
-        <Button name="0" />
-        <Button name="." />
-        <Button name="=" />
+        <Button name="0" color={"#dfdfdf"} wide />
+        <Button name="." color={"#dfdfdf"} />
+        <Button name="=" color={"#dfdfdf"} />
       </div>
     </div>
   );
