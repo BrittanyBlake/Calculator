@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './Display.module.css'
 
 function Display({ result }) {
   return (
-    <div>
-      <h3>
+    <div class={styles.display}>
+      <h3 class={styles.result}>
         {' '}
         {result}
         {' '}
