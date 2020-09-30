@@ -2,12 +2,10 @@ import React from 'react';
 import Button from '../button/Button';
 import styles from './ButtonPanel.module.css';
 
-function ButtonPanel({clickHandler}) {
-
+function ButtonPanel({ clickHandler }) {
   // handleClick = (buttonName) => {
   //   this.props.clickHandler(buttonName)
   // };
-  
 
   return (
     <div className="button-panel">

@@ -3,30 +3,30 @@ import Big from 'big.js';
 const operate = (numberOne, numberTwo, operation) => {
   const num1 = Big(numberOne);
   const num2 = Big(numberTwo);
-  let total= 0;
+  let total = 0;
 
   switch (operation) {
-    case "-":
+    case '-':
       total = num1.minus(num2).toString();
       break;
-    case "+":
+    case '+':
       total = num1.plus(num2).toString();
       break;
-    case "X":
+    case 'X':
       total = num1.times(num2).toString();
       break;
-    case "÷":
-      if (num2.toString() === '0'){
-        return "NaN"
+    case '÷':
+      if (num2.toString() === '0') {
+        return 'NaN';
       }
       total = num1.div(num2).toString();
       break;
-    case "%":
-      total = num1.times("0.01").toString();
+    case '%':
+      total = num1.times('0.01').toString();
       break;
     default:
   }
-  return total
+  return total;
 };
 
 export default operate;
