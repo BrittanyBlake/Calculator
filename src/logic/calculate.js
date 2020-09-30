@@ -1,5 +1,5 @@
 import operate from './operate';
-
+/* eslint-disable no-param-reassign */
 const calculate = ({ total, next, operation }, buttonName) => {
   const operators = ['+', '-', '÷', 'x', '%'];
 
@@ -48,5 +48,6 @@ const calculate = ({ total, next, operation }, buttonName) => {
   }
   return { total, next, operation };
 };
+/* eslint-enable no-param-reassign */
 
 export default calculate;
