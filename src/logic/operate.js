@@ -3,7 +3,7 @@ import Big from 'big.js';
 const operate = (numberOne, numberTwo, operation) => {
   const num1 = Big(numberOne);
   const num2 = Big(numberTwo);
-  let total;
+  let total= 0;
 
   switch (operation) {
     case '-':
@@ -16,10 +16,11 @@ const operate = (numberOne, numberTwo, operation) => {
       total = num1.times(num2).toString();
       break;
     case '÷':
-      if (num1 === 0 || num2 === 0) {
-        total = 'NaN';
+      if ( !num2 == 0) {
+         total = num1.div(num2).toString();
+        
       } else {
-        total = num1.div(num2).toString();
+       total = "NaN";
       }
       break;
     case '%':
@@ -27,7 +28,7 @@ const operate = (numberOne, numberTwo, operation) => {
       break;
     default:
   }
-  return total.toString();
+  return total
 };
 
 export default operate;
