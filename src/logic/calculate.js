@@ -1,7 +1,6 @@
 import operate from './operate';
 
-const calculate = (dataObject, buttonName) => {
-  let { total, next, operation } = dataObject;
+const calculate = ({ total, next, operation }, buttonName) => {
   const operators = ['+', '-', '÷', 'x', '%'];
 
   if (buttonName === 'AC') {
