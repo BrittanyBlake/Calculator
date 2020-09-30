@@ -6,24 +6,19 @@ const operate = (numberOne, numberTwo, operation) => {
   let total= 0;
 
   switch (operation) {
-    case '-':
+    case "-":
       total = num1.minus(num2).toString();
-      break
-    case '+':
+      break;
+    case "+":
       total = num1.plus(num2).toString();
       break;
-    case 'X':
+    case "X":
       total = num1.times(num2).toString();
       break;
-    case '÷':
-      if ( !num2 == 0) {
-         total = num1.div(num2).toString();
-        
-      } else {
-       total = "NaN";
-      }
+    case "÷":
+      total = (num2 !== 0) ? num1.div(num2).toString() : "NaN" ;
       break;
-    case '%':
+    case "%":
       total = num1.times("0.01").toString();
       break;
     default:
