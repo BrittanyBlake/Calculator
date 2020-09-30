@@ -52,6 +52,9 @@
 
 Calculator App built with React using big.js library.
 
+<p align="center">
+    <img src="calculator.gif" alt="gif" >
+</p>
 <!-- Live Link (Netlify) -->
 
 ## Live Link (Heroku)
