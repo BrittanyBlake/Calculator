@@ -16,7 +16,10 @@ const operate = (numberOne, numberTwo, operation) => {
       total = num1.times(num2).toString();
       break;
     case "÷":
-      total = (num2 !== 0) ? num1.div(num2).toString() : "NaN" ;
+      if (num2.toString() === '0'){
+        return "NaN"
+      }
+      total = num1.div(num2).toString();
       break;
     case "%":
       total = num1.times("0.01").toString();
