@@ -16,7 +16,7 @@ function ButtonPanel({ clickHandler }) {
         <Button name="7" color="#dfdfdf" clickHandler={clickHandler} />
         <Button name="8" color="#dfdfdf" clickHandler={clickHandler} />
         <Button name="9" color="#dfdfdf" clickHandler={clickHandler} />
-        <Button name="X" clickHandler={clickHandler} />
+        <Button name="x" clickHandler={clickHandler} />
       </div>
       <div className={styles.group}>
         <Button name="4" color="#dfdfdf" clickHandler={clickHandler} />

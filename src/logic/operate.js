@@ -12,7 +12,7 @@ const operate = (numberOne, numberTwo, operation) => {
     case '+':
       total = num1.plus(num2).toString();
       break;
-    case 'X':
+    case 'x':
       total = num1.times(num2).toString();
       break;
     case '÷':

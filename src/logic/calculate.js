@@ -2,7 +2,7 @@ import operate from './operate';
 
 const calculate = (dataObject, buttonName) => {
   let { total, next, operation } = dataObject;
-  const operators = ['+', '-', '÷', 'X', '%'];
+  const operators = ['+', '-', '÷', 'x', '%'];
 
   if (buttonName === 'AC') {
     total = 0;
