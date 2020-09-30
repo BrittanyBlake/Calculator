@@ -24,7 +24,7 @@ class App extends Component {
     const defaultDisplay = "0";
     const { next, total} = this.state
 
-    const result = defaultDisplay || next || total;
+    const result =  next || total || defaultDisplay;
     return (
       <div className={styles.container}>
         <div className={styles.App}>
