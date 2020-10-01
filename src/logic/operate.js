@@ -7,27 +7,26 @@ const operate = (numberOne, numberTwo, operation) => {
 
   switch (operation) {
     case '-':
-      total = num1.minus(num2);
+      total = num1.minus(num2).toString();
       break;
     case '+':
-      total = num1.plus(num2);
+      total = num1.plus(num2).toString();
       break;
-    case 'X':
-      total = num1.times(num2);
+    case 'x':
+      total = num1.times(num2).toString();
       break;
     case '÷':
-      if (num2 === 0) {
-        total = 'NaN';
-      } else {
-        total = num1.div(num2);
+      if (num2.toString() === '0') {
+        return 'NaN';
       }
+      total = num1.div(num2).toString();
       break;
     case '%':
-      total = num1.times('0.01');
+      total = num1.times('0.01').toString();
       break;
     default:
   }
-  return total.toString();
+  return total;
 };
 
 export default operate;
