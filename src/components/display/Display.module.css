@@ -1,0 +1,14 @@
+.display {
+  background-color: grey;
+  height: 100px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.result {
+  color: white;
+  font-weight: bold;
+  font-size: 55px;
+}
